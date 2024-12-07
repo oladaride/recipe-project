@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size:14px;
+}
+body{
+    background:wheat;
+}
+
+.whole-wrap{
+    height:1480px;
+    margin-top:50px;
+    width:40%;
+    background-color:white;
+    border-radius:8px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+   /*  border:1px green solid; */
+    margin-bottom:50px;
+}
+.first-section{
+    height:300px;
+    /* border:1px red solid; */
+    padding-top:30px;
+    margin-top:5px;
+}
+.first-section img{
+    width:90%;
+    height:200px;
+    margin-left:25px;
+    margin-bottom:10px;
+    border-radius: 8px;
+}
+.description{
+    width:90%;
+    font:12px;
+    margin-left:auto;
+    margin-right:auto;    
+}
+.description h2{
+    margin-bottom:3px;
+    font-weight: 300;
+    font-size:22px;
+    font-family: "Young Serif", serif;
+    font-style: normal;
+}
+.description p{
+    font-size:12px;
+    line-height: 1.5;
+}
+.prep-time{
+    width:90%;
+    background:wheat;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:35px;
+    padding-left:10px;
+    padding-top:10px;
+    height:120px;
+    border-radius:8px;
+    line-height:1.5;
+    margin-bottom:10px;
+    
+}
+.prep-time ul{
+    margin-left:auto;
+    margin-right:auto;
+
+}.prep-time h4{
+    margin-bottom:10px;
+    font-size:16px;
+    color:hsl(332, 51%, 32%);
+}
+
+.prep-time li{
+    margin-bottom:4px;
+    font-size:12px;
+    list-style-type: square;
+    line-height:1.5;
+}
+.prep-time li::marker{
+    color:hsl(332, 51%, 32%);
+}
+.ingredient{
+   /*  border:1px solid green; */
+    height:200px;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:30px;
+    margin-bottom:20px;
+}
+.ingredient h2{
+    margin-bottom:10px;
+    color:hsl(332, 51%, 32%);
+    font-size:24px;
+}
+.ingredient li{
+    line-height: 1.5;
+}
+.ingredient li::marker{
+    color:hsl(332, 51%, 32%);
+}
+.instruction{
+    height:350px;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    /* border:1px solid indigo; */
+    margin-bottom:20px;
+}
+.instruction h2{
+    margin-bottom:10px;
+    color:hsl(332, 51%, 32%);
+    font-size:24px;
+}
+
+.instruction li{
+    line-height:1.5;
+}
+.instruction li::marker{
+    color:hsl(332, 51%, 32%);
+    font-weight:bold;
+}
+.nutrition{
+    height:270px;
+    width:90%;
+   /*  border:1px solid orange; */
+    margin-left:auto;
+    margin-right:auto;
+}
+.nutrition h2{
+    margin-bottom:10px;
+    color:hsl(332, 51%, 32%);
+    font-size:24px;
+}
+.t-d{
+    display:flex;
+    width:60%;
+    margin-left:20px;
+    margin-bottom:10px;
+    /* border:1px solid brown; */
+    justify-content: space-between;
+}
+.nutrition hr{
+    margin-bottom:10px;
+}
+.nutrition b{
+    color:hsl(332, 51%, 32%);
+}
+
+@media (width<=480px){
+   body{
+    padding-top:0;
+    padding-bottom:none;
+   }
+   
+    .whole-wrap{
+        height:1650px;
+        width:100%;
+        background-color:white;
+        border-radius:none;
+        margin-left:auto;
+        margin-right:auto;
+       /*  border:1px green solid; */
+        margin-bottom:0;
+        margin-top:0;
+    }
+    .first-section img{
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+        margin-top:0;
+
+    }
+    .first-section{
+        height:350px;
+        /* border:1px red solid; */
+        padding-top:none;
+        margin-top:none;
+        
+    }
+    .description h2{
+        width:70%;
+        font-size:25px;
+    }
+    .prep-time li{
+        margin-bottom:8px;
+    }
+    .ingredient{
+        /* border:1px solid green; */
+        height:200px;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top:30px;
+        margin-bottom:20px;
+    }
+    .ingredient li{
+        margin-bottom:8px;
+    }
+    .instruction{
+        height:500px;
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        /* border:1px solid indigo; */
+        margin-bottom:20px;
+        line-height:1.8;
+    }
+    .instruction li{
+        margin-bottom:8px;
+    }
+}
+
+
